@@ -3,8 +3,8 @@
 import { useState, useEffect } from "react"
 import { CalendarIcon, Pencil } from "lucide-react"
 import { format } from "date-fns"
-import { Button } from "@/components/ui/button"
-import { Calendar } from "@/components/ui/calendar"
+import { Button } from "@/app/components/ui/button"
+import { Calendar } from "@/app/components/ui/calendar"
 import {
   Dialog,
   DialogContent,
@@ -12,9 +12,9 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog"
-import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
-import { Textarea } from "@/components/ui/textarea"
+} from "@/app/components/ui/dialog"
+import { Popover, PopoverContent, PopoverTrigger } from "@/app/components/ui/popover"
+import { Textarea } from "@/app/components/ui/textarea"
 import { useNotes } from "@/app/hooks/use-notes"
 import { cn } from "@/lib/utils"
 
